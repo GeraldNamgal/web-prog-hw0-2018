@@ -1,0 +1,55 @@
+$color: firebrick;
+
+// for h1 text color using a variable (above)
+h1 {
+    color: $color;
+}
+
+// for tables nested in div's
+div {
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: auto;
+        margin: auto;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    th {
+        background-color: lightgray;
+    }
+
+    td {
+        background-color: SeaShell;
+    }
+}
+
+// abstraction for inheritance, for a list of ingredients
+%ingredients {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h5 {
+        text-align: center;
+        text-decoration: underline;
+        font-style: italic;
+    }
+}
+
+// extends ingredients above
+.soupIngredients {
+    @extend %ingredients;
+    background-color: olive;
+}
+
+// extends ingredients above
+.dessertIngredients {
+    @extend %ingredients;
+    background-color: coral;
+}

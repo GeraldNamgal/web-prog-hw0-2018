@@ -1,9 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>?</title>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="sassStyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* Used flex box to wrap pictures on a page */
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .container > div {
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px 20px 5px 20px;
+                width: 300px;
+            }
+
+            img {
+                border: 1px solid black;
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            div > h6 {
+                text-align: center;
+                margin-top: 10px;
+            }
+        </style>
     </head>
     <body>
-        You're on page2.
+        <h1>Gallery</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">| Homepage |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="page0.html">| Featured Food #1 |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="page1.html">| Featured Food #2 |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="references.html">| References |</a>
+                </li>
+            </ul>
+        </nav>
+        <p> Here are some pictures of my favorite foods and food-related things. This gallery
+        is meant to inspire in all food-related endeavors. Think of it as food for thought
+        (sorry, had to)!
+        </p>
+        <div class="container">
+            <div>
+                <img src="Pics/bbqChicken.jpg">
+                <h6>Barbecue Chicken</h6>
+            </div>
+            <div>
+                <img src="Pics/birdsNestSoup.jpg">
+                <h6>Bird's Nest Soup</h6>
+            </div>
+            <div>
+                <img src="Pics/clamChowder.jpeg">
+                <h6>Clam Chowder</h6>
+            </div>
+            <div>
+                <img src="Pics/dinuguan.jpg">
+                <h6>Dinuguan</h6>
+            </div>
+            <div>
+                <img src="Pics/gumbo.jpg">
+                <h6>Gumbo</h6>
+            </div>
+            <div>
+                <img src="Pics/sushi.jpg">
+                <h6>Sushi</h6>
+            </div>
+            <div>
+                <img src="Pics/shoyu-ramen.jpg">
+                <h6>Shoyu Ramen</h6>
+            </div>
+            <div>
+                <img src="Pics/soulFood.jpg">
+                <h6>Soul Food</h6>
+            </div>
+            <div>
+                <img src="Pics/wontonSoup.jpg">
+                <h6>Wonton Soup</h6>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,33 @@
+h1 {
+  color: firebrick; }
+
+div table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: auto;
+  margin: auto; }
+div th, div td {
+  border: 1px solid black;
+  padding: 5px; }
+div th {
+  background-color: lightgray; }
+div td {
+  background-color: SeaShell; }
+
+.soupIngredients, .dessertIngredients {
+  border: 1px solid black;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .soupIngredients h5, .dessertIngredients h5 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic; }
+
+.soupIngredients {
+  background-color: olive; }
+
+.dessertIngredients {
+  background-color: coral; }
+
+/*# sourceMappingURL=sassStyles.css.map */

@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>All About Food</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="sassStyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* @media used to change heading according to big vs. small screens */
+            @media (min-width: 500px) {
+                h1::before {
+                    content: "Welcome to All About Food!";
+                }
+            }
+
+            @media (max-width: 499px) {
+                h1::before {
+                    content: "Welcome!";
+                }
+            }
+
+            #eventsTable {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        Hello, world! <br>
-        Here's a link to page1: <a href="page1.html">click here!</a>
+        <h1></h1>
+        <!-- Using a Bootstrap component for navigation -->
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="page0.html">| Featured Food #1 |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="page1.html">| Featured Food #2 |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="page2.html">| Gallery |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="references.html">| References |</a>
+                </li>
+            </ul>
+        </nav>
+        <p> Food is one of the main contributing factors to modern human evolution.
+            It is believed that eating together around a fire changed our brains and
+            made us the social creatures we are today because it is around food that
+            ideas are exchanged, cooperation is cultivated, and life is shared. This
+            website is about food and anything pertaining to it. I highlight some of
+            the foods that I think are especially great. Pictures, recipes, stories,
+            and history are included. Enjoy!
+        </p>
+        <div id="eventsTable">
+            <h3>Major Food Events</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Event</th>
+                    <th>Place</th>
+                </tr>
+                <tr>
+                    <td>1.8 M.Y.A.</td>
+                    <td>Fire is used for cooking</td>
+                    <td>South Africa</td>
+                </tr>
+                <tr>
+                    <td>13-30,000 Years Ago</td>
+                    <td>Animals are domesticated</td>
+                    <td>Present-day Belgium</td>
+                </tr>
+                <tr>
+                    <td>7,000 B.C.</td>
+                    <td>Agriculture arises</td>
+                    <td>The Middle East</td>
+                </tr>
+                <tr>
+                    <td>18th Century</td>
+                    <td>Mashed potatoes are invented</td>
+                    <td>Western Europe</td>
+                </tr>
+                <tr>
+                    <td>1920s</td>
+                    <td>Peanut butter & jelly sandwich is invented</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>1958</td>
+                    <td>Ramen is invented</td>
+                    <td>Japan</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>

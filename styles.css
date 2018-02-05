@@ -1,0 +1,22 @@
+body {
+    background-color: BurlyWood;
+    font-family: serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align:center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: bisque;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: white;
+}
