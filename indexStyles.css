@@ -1,0 +1,16 @@
+/* @media used to change heading according to big vs. small screens */
+@media (min-width: 500px) {
+    h1::before {
+        content: "Welcome to All About Food!";
+    }
+}
+
+@media (max-width: 499px) {
+    h1::before {
+        content: "Welcome!";
+    }
+}
+
+#eventsTable {
+    text-align: center;
+}

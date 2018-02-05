@@ -12,14 +12,14 @@ I used a list on page0.html, page1.html, and references.html. There is a table o
 index.html. There are images on page0.html, page1.html, and page2.html.
 
 There is a stylesheet called styles.css and another called sassStyles.css which links
-to sassStyles.scss.
+to sassStyles.scss. There are also stylesheets for most of the other html pages.
 
 I used at least five different CSS properties and selectors. I used the #id selector
-in index.html for "eventsTable". I used the .class selector in sassStyles.scss and in
-page2.html.
+in indexStyles.css for "eventsTable". I used the .class selector in sassStyles.scss and in
+page2Styles.css.
 
-I used the @media query to fix the size of my heading for smaller devices in index.html
-and in page0.html for resizing the picture which was a little too big for smaller
+I used the @media query to fix the size of my heading for smaller devices in indexStyles.css
+and in page0Styles.css for resizing the picture which was a little too big for smaller
 devices.
 
 I used Bootstrap's navigation component for the navigation bar that appears on every
